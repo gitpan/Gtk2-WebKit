@@ -1,0 +1,20 @@
+Changes
+eg/browser.pl
+lib/Gtk2/WebKit.pm
+Makefile.PL
+MANIFEST
+MANIFEST.SKIP
+maps
+perl_webkit.h
+ppport.h
+README
+t/00.load.t
+t/pod.t
+xs/WebKit.xs
+xs/WebKitNetworkRequest.xs
+xs/WebKitWebBackForwardList.xs
+xs/WebKitWebFrame.xs
+xs/WebKitWebHistoryItem.xs
+xs/WebKitWebSettings.xs
+xs/WebKitWebView.xs
+META.yml                                 Module meta-data (added by MakeMaker)
