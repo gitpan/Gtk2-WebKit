@@ -2,7 +2,7 @@ Changes
 eg/browser.pl
 lib/Gtk2/WebKit.pm
 Makefile.PL
-MANIFEST
+MANIFEST			This list of files
 MANIFEST.SKIP
 maps
 perl_webkit.h
@@ -10,6 +10,7 @@ ppport.h
 README
 t/00.load.t
 t/pod.t
+t/podcoverage.t
 xs/WebKit.xs
 xs/WebKitNetworkRequest.xs
 xs/WebKitWebBackForwardList.xs
