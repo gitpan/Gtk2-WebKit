@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use base qw/DynaLoader/;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 sub dl_load_flags { 0x01 }
 
@@ -64,10 +64,11 @@ Florian Ragwitz  C<< <rafl@debian.org> >>
 
 =head1 LICENCE AND COPYRIGHT
 
-Copyright (c) 2008, Florian Ragwitz C<< <rafl@debian.org> >>. All rights reserved.
+Copyright (c) 2008, Florian Ragwitz C<< <rafl@debian.org> >>.
 
-This module is free software; you can redistribute it and/or
-modify it under the same terms as Perl itself. See L<perlartistic>.
+This is free software, licensed under:
+
+  The GNU Lesser General Public License Version 2.1, February 1999
 
 =head1 DISCLAIMER OF WARRANTY
 

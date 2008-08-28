@@ -1,10 +1,21 @@
 Changes
 eg/browser.pl
+ext/Module/Install/PRIVATE/WebKit.pm
+inc/Module/Install.pm
+inc/Module/Install/Base.pm
+inc/Module/Install/Can.pm
+inc/Module/Install/Fetch.pm
+inc/Module/Install/Makefile.pm
+inc/Module/Install/Metadata.pm
+inc/Module/Install/PRIVATE/WebKit.pm
+inc/Module/Install/Win32.pm
+inc/Module/Install/WriteAll.pm
 lib/Gtk2/WebKit.pm
 Makefile.PL
 MANIFEST			This list of files
 MANIFEST.SKIP
 maps
+META.yml
 perl_webkit.h
 ppport.h
 README
@@ -18,4 +29,3 @@ xs/WebKitWebFrame.xs
 xs/WebKitWebHistoryItem.xs
 xs/WebKitWebSettings.xs
 xs/WebKitWebView.xs
-META.yml                                 Module meta-data (added by MakeMaker)
