@@ -2,9 +2,10 @@ package Gtk2::WebKit;
 
 use strict;
 use warnings;
+use Gtk2;
 use base qw/DynaLoader/;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 sub dl_load_flags { 0x01 }
 

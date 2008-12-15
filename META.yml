@@ -23,4 +23,4 @@ no_index:
 requires:
   Gtk2: 0
   perl: 5.8.0
-version: 0.03
+version: 0.04
