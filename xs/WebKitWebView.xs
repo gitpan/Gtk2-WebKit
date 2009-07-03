@@ -8,6 +8,14 @@ GtkWidget *
 webkit_web_view_new (class)
 	C_ARGS:
 
+const gchar *
+webkit_web_view_get_title (web_view)
+		WebKitWebView *web_view
+
+const gchar *
+webkit_web_view_get_uri (web_view)
+		WebKitWebView *web_view
+
 void
 webkit_web_view_set_maintains_back_forward_list (web_view, flag)
 		WebKitWebView *web_view
@@ -62,6 +70,15 @@ webkit_web_view_reload (web_view)
 		WebKitWebView *web_view
 
 void
+webkit_web_view_reload_bypass_cache (web_view)
+		WebKitWebView *web_view
+
+void
+webkit_web_view_load_uri (web_view, uri)
+		WebKitWebView *web_view
+		const gchar *uri
+
+void
 webkit_web_view_load_string (web_view, content, content_mime_type, content_encoding, base_uri)
 		WebKitWebView *web_view
 		const gchar *content
@@ -74,6 +91,11 @@ webkit_web_view_load_html_string (web_view, content, base_uri)
 		WebKitWebView *web_view
 		const gchar *content
 		const gchar *base_uri
+
+void
+webkit_web_view_load_request (web_view, request)
+		WebKitWebView *web_view
+		WebKitNetworkRequest *request
 
 gboolean
 webkit_web_view_search_text (web_view, string, case_sensitive, forward, wrap)
@@ -174,6 +196,19 @@ WebKitWebSettings *
 webkit_web_view_get_settings (web_view)
 		WebKitWebView *web_view
 
+WebKitWebInspector *
+webkit_web_view_get_inspector (web_view)
+		WebKitWebView *web_view
+
+WebKitWebWindowFeatures *
+webkit_web_view_get_window_features (web_view)
+		WebKitWebView *web_view
+
+gboolean
+webkit_web_view_can_show_mime_type (web_view, mime_type)
+		WebKitWebView *web_view
+		const gchar *mime_type
+
 gboolean
 webkit_web_view_get_transparent (web_view)
 		WebKitWebView *web_view
@@ -208,3 +243,22 @@ void
 webkit_web_view_set_full_content_zoom (web_view, full_content_zoom)
 		WebKitWebView *web_view
 		gboolean full_content_zoom
+
+const gchar *
+webkit_web_view_get_encoding (web_view)
+		WebKitWebView *web_view
+
+void
+webkit_web_view_set_custom_encoding (web_view, encoding)
+		WebKitWebView *web_view
+		const gchar *encoding
+
+const gchar *
+webkit_web_view_get_custom_encoding (web_view)
+		WebKitWebView *web_view
+
+void
+webkit_web_view_move_cursor (web_view, step, count)
+		WebKitWebView *web_view
+		GtkMovementStep step
+		gint count
