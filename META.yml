@@ -25,10 +25,10 @@ no_index:
 provides:
   Gtk2::WebKit:
     file: lib/Gtk2/WebKit.pm
-    version: 0.05
+    version: 0.06
 requires:
   Gtk2: 0
   perl: 5.8.0
 resources:
   license: http://opensource.org/licenses/lgpl-license.php
-version: 0.05
+version: 0.06
