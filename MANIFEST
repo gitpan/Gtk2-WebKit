@@ -18,9 +18,11 @@ maps
 META.yml
 perl_webkit.h
 ppport.h
+README
 t/00.load.t
 t/pod.t
 t/podcoverage.t
+t/webview_signal_create_plugin_widget.t
 xs/WebKit.xs
 xs/WebKitDownload.xs
 xs/WebKitNetworkRequest.xs
