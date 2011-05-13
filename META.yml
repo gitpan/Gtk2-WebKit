@@ -12,7 +12,7 @@ configure_requires:
   Glib::MakeHelper: 0
   Gtk2::CodeGen: 0
 distribution_type: module
-generated_by: 'Module::Install version 0.97'
+generated_by: 'Module::Install version 1.00'
 license: lgpl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -23,14 +23,10 @@ no_index:
     - ext
     - inc
     - t
-provides:
-  Gtk2::WebKit:
-    file: lib/Gtk2/WebKit.pm
-    version: 0.08
 requires:
   Gtk2: 0
   perl: 5.8.0
 resources:
   license: http://opensource.org/licenses/lgpl-license.php
   repository: git://github.com/rafl/gtk2-webkit.git
-version: 0.08
+version: 0.09
